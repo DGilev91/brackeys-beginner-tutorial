@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=4 uid="uid://c34lipxam7sr3"]
+[gd_scene load_steps=12 format=4 uid="uid://c34lipxam7sr3"]
 
 [ext_resource type="PackedScene" uid="uid://clcqpmrbuxgbx" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://djlbo8h7fy58d" path="res://scenes/platform.tscn" id="2_lnu2h"]
 [ext_resource type="Texture2D" uid="uid://c51nm7ln8i0il" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="2_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://dyh4770t8wjsf" path="res://scenes/platform_2.tscn" id="3_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://dngt0boq67ai2" path="res://scenes/coin.tscn" id="4_iywne"]
+[ext_resource type="PackedScene" uid="uid://ct5ju085bqvlw" path="res://scenes/killzone.tscn" id="6_p57ef"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -261,3 +262,6 @@ process_callback = 0
 limit_bottom = 96
 limit_smoothed = true
 position_smoothing_enabled = true
+
+[node name="Killzone" parent="." instance=ExtResource("6_p57ef")]
+position = Vector2(40, 122)
