@@ -59,4 +59,12 @@ frame_progress = 0.3796906
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_0l8pv")
 
+[node name="RayCastRight" type="RayCast2D" parent="."]
+rotation = -1.5707964
+target_position = Vector2(-4.808253e-07, 11)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+rotation = 1.5707964
+target_position = Vector2(-4.808253e-07, 11)
+
 [editable path="Killzone"]
